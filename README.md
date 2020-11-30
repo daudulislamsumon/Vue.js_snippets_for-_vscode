@@ -8,7 +8,7 @@ Download the package or copy the code from Vue.js_html_snippets.json , Vue.js_ja
 
 ## Usage
 
-You will all the directive , Events , Property and Method supports.
+You will get all the directive , Events , Property and Method supports.
 
 ## Contributing
 
