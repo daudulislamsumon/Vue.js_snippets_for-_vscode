@@ -1,0 +1,317 @@
+{
+	// Vue.js snippets for Visual Studio Code
+	// Author: Md Daudul Islam <md.daudulislamsumon@gmail.com>
+	// Creation Date: 30/10/2020
+	// Update Date: 01/11/2020
+
+
+	"Updates the element’s textContent": {
+		"prefix": "v-text",
+		"body": [
+		  "v-text=\"$1\""
+		],
+		"description": "Updates the element’s textContent"
+	},
+	"Updates the element’s innerHTML": {
+		"prefix": "v-html",
+		"body": [
+		  "v-html=\"$1\""
+		],
+		"description": "Updates the element’s innerHTML"
+	},
+	"Toggles the element’s display CSS property based on the truthy-ness of the expression value": {
+		"prefix": "v-show",
+		"body": [
+		  "v-show=\"$1\""
+		],
+		"description": "Toggles the element’s display CSS property based on the truthy-ness of the expression value"
+	},
+	"The directive v-if is used to conditionally render a block": {
+		"prefix": "v-if",
+		"body": [
+		  "v-if=\"$1\""
+		],
+		"description": "The directive v-if is used to conditionally render a block"
+	},
+	"The directive v-else is used to conditionally render a block": {
+		"prefix": "v-else",
+		"body": [
+		  "v-else$1"
+		],
+		"description": "The directive v-else is used to conditionally render a block"
+	},
+	"The v-else-if, as the name suggests, serves as an “else if block” for v-if": {
+		"prefix": "v-else-if",
+		"body": [
+		  "v-else-if=\"$1\""
+		],
+		"description": "The v-else-if, as the name suggests, serves as an “else if block” for v-if"
+	},
+	"Render the element or template block multiple times based on the source data": {
+		"prefix": "v-for",
+		"body": [
+		  "v-for=\"$1\""
+		],
+		"description": "Render the element or template block multiple times based on the source data"
+	},
+	"Attaches an event listener to the element": {
+		"prefix": "v-on",
+		"body": [
+		  "v-on:$1"
+		],
+		"description": "Attaches an event listener to the element"
+	},
+	"Dynamically bind one or more attributes, or a component prop to an expression": {
+		"prefix": "v-bind",
+		"body": [
+		  "v-bind:$1"
+		],
+		"description": "Dynamically bind one or more attributes, or a component prop to an expression"
+	},
+	"Create a two-way binding on a form input element or a component": {
+		"prefix": "v-model",
+		"body": [
+		  "v-model=\"$1\""
+		],
+		"description": "Create a two-way binding on a form input element or a component"
+	},
+	"Denote named slots or slots that expect to receive props": {
+		"prefix": "v-slot",
+		"body": [
+		  "v-slot:$1"
+		],
+		"description": "Denote named slots or slots that expect to receive props"
+	},
+	"Skip compilation for this element and all its children": {
+		"prefix": "v-pre",
+		"body": [
+		  "v-pre$1"
+		],
+		"description": "Skip compilation for this element and all its children"
+	},
+	"This directive will remain on the element until the associated Vue instance finishes compilation": {
+		"prefix": "v-cloak",
+		"body": [
+		  "v-cloak$1"
+		],
+		"description": "This directive will remain on the element until the associated Vue instance finishes compilation"
+	},
+	"Render the element and component once only": {
+		"prefix": "v-once",
+		"body": [
+		  "v-once$1"
+		],
+		"description": "Render the element and component once only"
+	},
+	"The key special attribute is primarily used as a hint for Vue’s virtual DOM algorithm to identify VNodes when diffing the new list of nodes against the old list": {
+		"prefix": ":key",
+		"body": [
+		  ":key=\"$1\""
+		],
+		"description": "The key special attribute is primarily used as a hint for Vue’s virtual DOM algorithm to identify VNodes when diffing the new list of nodes against the old list"
+	},
+	"ref is used to register a reference to an element or a child component": {
+		"prefix": "ref",
+		"body": [
+		  "ref=\"$1\""
+		],
+		"description": "ref is used to register a reference to an element or a child component"
+	},
+	"Used for dynamic components and to work around limitations of in-DOM templates": {
+		"prefix": "is",
+		"body": [
+		  "is=\"$1\""
+		],
+		"description": "Used for dynamic components and to work around limitations of in-DOM templates"
+	},
+	"Click DOM event": {
+		"prefix": ":click",
+		"body": [
+		  ":click=\"$1\""
+		],
+		"description": "Click DOM event"
+	},
+	"The click event's propagation will be stopped": {
+		"prefix": ".stop",
+		"body": [
+		  ".stop$1"
+		],
+		"description": "The click event's propagation will be stopped"
+	},
+	"The submit event will no longer reload the page": {
+		"prefix": ".prevent",
+		"body": [
+		  ".prevent$1"
+		],
+		"description": "The submit event will no longer reload the page"
+	},
+	"An event targeting an inner element is handled here before being handled by that element": {
+		"prefix": ".capture",
+		"body": [
+		  ".capture$1"
+		],
+		"description": "An event targeting an inner element is handled here before being handled by that element"
+	},
+	"Only trigger handler if event.target is the element itself": {
+		"prefix": ".self",
+		"body": [
+		  ".self$1"
+		],
+		"description": "Only trigger handler if event.target is the element itself"
+	},
+	"When listening for keyboard events we use keyup": {
+		"prefix": ":keyup",
+		"body": [
+		  ":keyup$1"
+		],
+		"description": "When listening for keyboard events we use keyup"
+	},
+	"Key modifier for Key events": {
+		"prefix": ".enter",
+		"body": [
+		  ".enter$1"
+		],
+		"description": "Key modifier for Key events"
+	},
+	"Key modifier for Key events 2": {
+		"prefix": ".page-down",
+		"body": [
+		  ".page-down$1"
+		],
+		"description": "Key modifier for Key events 2"
+	},
+	"System Modifier Key Ctrl + Click": {
+		"prefix": ".ctrl",
+		"body": [
+		  ".ctrl$1"
+		],
+		"description": "System Modifier Key Ctrl + Click"
+	},
+	"System Modifier Key alt": {
+		"prefix": ".alt",
+		"body": [
+		  ".alt$1"
+		],
+		"description": "System Modifier Key alt"
+	},
+	"System Modifier Key shift": {
+		"prefix": ".shift",
+		"body": [
+		  ".shift$1"
+		],
+		"description": "System Modifier Key shift"
+	},
+	"System Modifier Key meta": {
+		"prefix": ".meta",
+		"body": [
+		  ".meta$1"
+		],
+		"description": "System Modifier Key meta"
+	},
+	"The exact modifier allows control of the exact combination of system modifiers needed to trigger an event": {
+		"prefix": ".exact",
+		"body": [
+		  ".exact$1"
+		],
+		"description": "The exact modifier allows control of the exact combination of system modifiers needed to trigger an event"
+	},
+	"synced after change instead of input": {
+		"prefix": ".lazy",
+		"body": [
+		  ".lazy$1"
+		],
+		"description": "synced after change instead of input"
+	},
+	"If you want user input to be automatically typecast as a Number, you can add the number modifier to your v-model managed inputs": {
+		"prefix": ".number",
+		"body": [
+		  ".number$1"
+		],
+		"description": "If you want user input to be automatically typecast as a Number, you can add the number modifier to your v-model managed inputs"
+	},
+	"If you want whitespace from user input to be trimmed automatically, you can add the trim modifier to your v-model-managed inputs": {
+		"prefix": ".trim",
+		"body": [
+		  ".trim$1"
+		],
+		"description": "If you want whitespace from user input to be trimmed automatically, you can add the trim modifier to your v-model-managed inputs"
+	},
+	"Shorthand of v-bind:href": {
+		"prefix": ":href",
+		"body": [
+		  ":href=\"$1\""
+		],
+		"description": "Shorthand of v-bind:href"
+	},
+	"Shorthand of v-on:click": {
+		"prefix": "@click",
+		"body": [
+		  "@click=\"$1\""
+		],
+		"description": "Shorthand of v-on:click"
+	},
+	"Call event.stopPropagation()": {
+		"prefix": ".stop",
+		"body": [
+		  ".stop$1"
+		],
+		"description": "Call event.stopPropagation()"
+	},
+	"Call event.preventDefault()": {
+		"prefix": ".prevent",
+		"body": [
+		  ".prevent$1"
+		],
+		"description": "Call event.preventDefault()"
+	},
+	"Add event listener in capture mode": {
+		"prefix": ".prevent",
+		"body": [
+		  ".capture$1"
+		],
+		"description": "Add event listener in capture mode"
+	},
+	"Listen for a native event on the root element of component": {
+		"prefix": ".native",
+		"body": [
+		  ".native$1"
+		],
+		"description": "Listen for a native event on the root element of component"
+	},
+	"Trigger handler at most once": {
+		"prefix": ".once",
+		"body": [
+		  ".once$1"
+		],
+		"description": "Trigger handler at most once"
+	},
+	"(2.2.0+) Only trigger handler for left button mouse events": {
+		"prefix": ".left",
+		"body": [
+		  ".left$1"
+		],
+		"description": "(2.2.0+) Only trigger handler for left button mouse events"
+	},
+	"(2.2.0+) Only trigger handler for right button mouse events": {
+		"prefix": ".right",
+		"body": [
+		  ".right$1"
+		],
+		"description": "(2.2.0+) Only trigger handler for right button mouse events"
+	},
+	"(2.2.0+) only trigger handler for middle button mouse events": {
+		"prefix": ".middle",
+		"body": [
+		  ".middle$1"
+		],
+		"description": "(2.2.0+) only trigger handler for middle button mouse events"
+	},
+	"2.3.0+) attaches a DOM event with { passive: true }": {
+		"prefix": ".passive",
+		"body": [
+		  ".passive$1"
+		],
+		"description": "2.3.0+) attaches a DOM event with { passive: true }"
+	},
+
+}
