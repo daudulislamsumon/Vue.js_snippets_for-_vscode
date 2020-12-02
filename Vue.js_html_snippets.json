@@ -5,224 +5,224 @@
     // Update Date: 01/11/2020
     // Update Date: 02/12/2020
 
-    "Updates the element’s textContent": {
+    "Updates the element’s textContent (Vue.js snippet)": {
         "prefix": "v-text",
         "body": ["v-text=\"$1\""],
-        "description": "Updates the element’s textContent"
+        "description": "Updates the element’s textContent (Vue.js snippet)"
     },
-    "Updates the element’s innerHTML": {
+    "Updates the element’s innerHTML (Vue.js snippet)": {
         "prefix": "v-html",
         "body": ["v-html=\"$1\""],
-        "description": "Updates the element’s innerHTML"
+        "description": "Updates the element’s innerHTML (Vue.js snippet)"
     },
-    "Toggles the element’s display CSS property based on the truthy-ness of the expression value": {
+    "Toggles the element’s display CSS property based on the truthy-ness of the expression value (Vue.js snippet)": {
         "prefix": "v-show",
         "body": ["v-show=\"$1\""],
-        "description": "Toggles the element’s display CSS property based on the truthy-ness of the expression value"
+        "description": "Toggles the element’s display CSS property based on the truthy-ness of the expression value (Vue.js snippet)"
     },
-    "The directive v-if is used to conditionally render a block": {
+    "The directive v-if is used to conditionally render a block (Vue.js snippet)": {
         "prefix": "v-if",
         "body": ["v-if=\"$1\""],
-        "description": "The directive v-if is used to conditionally render a block"
+        "description": "The directive v-if is used to conditionally render a block (Vue.js snippet)"
     },
-    "The directive v-else is used to conditionally render a block": {
+    "The directive v-else is used to conditionally render a block (Vue.js snippet)": {
         "prefix": "v-else",
         "body": ["v-else$1"],
-        "description": "The directive v-else is used to conditionally render a block"
+        "description": "The directive v-else is used to conditionally render a block (Vue.js snippet)"
     },
-    "The v-else-if, as the name suggests, serves as an “else if block” for v-if": {
+    "The v-else-if, as the name suggests, serves as an “else if block” for v-if (Vue.js snippet)": {
         "prefix": "v-else-if",
         "body": ["v-else-if=\"$1\""],
-        "description": "The v-else-if, as the name suggests, serves as an “else if block” for v-if"
+        "description": "The v-else-if, as the name suggests, serves as an “else if block” for v-if (Vue.js snippet)"
     },
-    "Render the element or template block multiple times based on the source data": {
+    "Render the element or template block multiple times based on the source data (Vue.js snippet)": {
         "prefix": "v-for",
         "body": ["v-for=\"$1\""],
-        "description": "Render the element or template block multiple times based on the source data"
+        "description": "Render the element or template block multiple times based on the source data (Vue.js snippet)"
     },
-    "Attaches an event listener to the element": {
+    "Attaches an event listener to the element (Vue.js snippet)": {
         "prefix": "v-on",
         "body": ["v-on:$1"],
-        "description": "Attaches an event listener to the element"
+        "description": "Attaches an event listener to the element (Vue.js snippet)"
     },
-    "Dynamically bind one or more attributes, or a component prop to an expression": {
+    "Dynamically bind one or more attributes, or a component prop to an expression (Vue.js snippet)": {
         "prefix": "v-bind",
         "body": ["v-bind:$1"],
-        "description": "Dynamically bind one or more attributes, or a component prop to an expression"
+        "description": "Dynamically bind one or more attributes, or a component prop to an expression (Vue.js snippet)"
     },
-    "Create a two-way binding on a form input element or a component": {
+    "Create a two-way binding on a form input element or a component (Vue.js snippet)": {
         "prefix": "v-model",
         "body": ["v-model=\"$1\""],
-        "description": "Create a two-way binding on a form input element or a component"
+        "description": "Create a two-way binding on a form input element or a component (Vue.js snippet)"
     },
-    "Denote named slots or slots that expect to receive props": {
+    "Denote named slots or slots that expect to receive props (Vue.js snippet)": {
         "prefix": "v-slot",
         "body": ["v-slot:$1"],
-        "description": "Denote named slots or slots that expect to receive props"
+        "description": "Denote named slots or slots that expect to receive props (Vue.js snippet)"
     },
-    "Skip compilation for this element and all its children": {
+    "Skip compilation for this element and all its children (Vue.js snippet)": {
         "prefix": "v-pre",
         "body": ["v-pre$1"],
-        "description": "Skip compilation for this element and all its children"
+        "description": "Skip compilation for this element and all its children (Vue.js snippet)"
     },
-    "This directive will remain on the element until the associated Vue instance finishes compilation": {
+    "This directive will remain on the element until the associated Vue instance finishes compilation (Vue.js snippet)": {
         "prefix": "v-cloak",
         "body": ["v-cloak$1"],
-        "description": "This directive will remain on the element until the associated Vue instance finishes compilation"
+        "description": "This directive will remain on the element until the associated Vue instance finishes compilation (Vue.js snippet)"
     },
-    "Render the element and component once only": {
+    "Render the element and component once only (Vue.js snippet)": {
         "prefix": "v-once",
         "body": ["v-once$1"],
-        "description": "Render the element and component once only"
+        "description": "Render the element and component once only (Vue.js snippet)"
     },
-    "The key special attribute is primarily used as a hint for Vue’s virtual DOM algorithm to identify VNodes when diffing the new list of nodes against the old list": {
+    "The key special attribute is primarily used as a hint for Vue’s virtual DOM algorithm to identify VNodes when diffing the new list of nodes against the old list (Vue.js snippet)": {
         "prefix": ":key",
         "body": [":key=\"$1\""],
-        "description": "The key special attribute is primarily used as a hint for Vue’s virtual DOM algorithm to identify VNodes when diffing the new list of nodes against the old list"
+        "description": "The key special attribute is primarily used as a hint for Vue’s virtual DOM algorithm to identify VNodes when diffing the new list of nodes against the old list (Vue.js snippet)"
     },
-    "ref is used to register a reference to an element or a child component": {
+    "ref is used to register a reference to an element or a child component (Vue.js snippet)": {
         "prefix": "ref",
         "body": ["ref=\"$1\""],
-        "description": "ref is used to register a reference to an element or a child component"
+        "description": "ref is used to register a reference to an element or a child component (Vue.js snippet)"
     },
-    "Used for dynamic components and to work around limitations of in-DOM templates": {
+    "Used for dynamic components and to work around limitations of in-DOM templates (Vue.js snippet)": {
         "prefix": "is",
         "body": ["is=\"$1\""],
-        "description": "Used for dynamic components and to work around limitations of in-DOM templates"
+        "description": "Used for dynamic components and to work around limitations of in-DOM templates (Vue.js snippet)"
     },
-    "Click DOM event": {
+    "Click DOM event (Vue.js snippet)": {
         "prefix": ":click",
         "body": [":click=\"$1\""],
-        "description": "Click DOM event"
+        "description": "Click DOM event (Vue.js snippet)"
     },
-    "An event targeting an inner element is handled here before being handled by that element": {
+    "An event targeting an inner element is handled here before being handled by that element (Vue.js snippet)": {
         "prefix": ".capture",
         "body": [".capture$1"],
-        "description": "An event targeting an inner element is handled here before being handled by that element"
+        "description": "An event targeting an inner element is handled here before being handled by that element (Vue.js snippet)"
     },
-    "Only trigger handler if event.target is the element itself": {
+    "Only trigger handler if event.target is the element itself (Vue.js snippet)": {
         "prefix": ".self",
         "body": [".self$1"],
-        "description": "Only trigger handler if event.target is the element itself"
+        "description": "Only trigger handler if event.target is the element itself (Vue.js snippet)"
     },
-    "When listening for keyboard events we use keyup": {
+    "When listening for keyboard events we use keyup (Vue.js snippet)": {
         "prefix": ":keyup",
         "body": [":keyup$1"],
-        "description": "When listening for keyboard events we use keyup"
+        "description": "When listening for keyboard events we use keyup (Vue.js snippet)"
     },
-    "Key modifier for Key events": {
+    "Key modifier for Key events (Vue.js snippet)": {
         "prefix": ".enter",
         "body": [".enter$1"],
-        "description": "Key modifier for Key events"
+        "description": "Key modifier for Key events (Vue.js snippet)"
     },
-    "Key modifier for Key events 2": {
+    "Key modifier for Key events 2 (Vue.js snippet)": {
         "prefix": ".page-down",
         "body": [".page-down$1"],
-        "description": "Key modifier for Key events 2"
+        "description": "Key modifier for Key events 2 (Vue.js snippet)"
     },
-    "System Modifier Key Ctrl + Click": {
+    "System Modifier Key Ctrl + Click (Vue.js snippet)": {
         "prefix": ".ctrl",
         "body": [".ctrl$1"],
-        "description": "System Modifier Key Ctrl + Click"
+        "description": "System Modifier Key Ctrl + Click (Vue.js snippet)"
     },
-    "System Modifier Key alt": {
+    "System Modifier Key alt (Vue.js snippet)": {
         "prefix": ".alt",
         "body": [".alt$1"],
-        "description": "System Modifier Key alt"
+        "description": "System Modifier Key alt (Vue.js snippet)"
     },
-    "System Modifier Key shift": {
+    "System Modifier Key shift (Vue.js snippet)": {
         "prefix": ".shift",
         "body": [".shift$1"],
-        "description": "System Modifier Key shift"
+        "description": "System Modifier Key shift (Vue.js snippet)"
     },
-    "System Modifier Key meta": {
+    "System Modifier Key meta (Vue.js snippet)": {
         "prefix": ".meta",
         "body": [".meta$1"],
-        "description": "System Modifier Key meta"
+        "description": "System Modifier Key meta (Vue.js snippet)"
     },
-    "The exact modifier allows control of the exact combination of system modifiers needed to trigger an event": {
+    "The exact modifier allows control of the exact combination of system modifiers needed to trigger an event (Vue.js snippet)": {
         "prefix": ".exact",
         "body": [".exact$1"],
-        "description": "The exact modifier allows control of the exact combination of system modifiers needed to trigger an event"
+        "description": "The exact modifier allows control of the exact combination of system modifiers needed to trigger an event (Vue.js snippet)"
     },
-    "synced after change instead of input": {
+    "synced after change instead of input (Vue.js snippet)": {
         "prefix": ".lazy",
         "body": [".lazy$1"],
-        "description": "synced after change instead of input"
+        "description": "synced after change instead of input (Vue.js snippet)"
     },
-    "If you want user input to be automatically typecast as a Number, you can add the number modifier to your v-model managed inputs": {
+    "If you want user input to be automatically typecast as a Number, you can add the number modifier to your v-model managed inputs (Vue.js snippet)": {
         "prefix": ".number",
         "body": [".number$1"],
-        "description": "If you want user input to be automatically typecast as a Number, you can add the number modifier to your v-model managed inputs"
+        "description": "If you want user input to be automatically typecast as a Number, you can add the number modifier to your v-model managed inputs (Vue.js snippet)"
     },
-    "If you want whitespace from user input to be trimmed automatically, you can add the trim modifier to your v-model-managed inputs": {
+    "If you want whitespace from user input to be trimmed automatically, you can add the trim modifier to your v-model-managed inputs (Vue.js snippet)": {
         "prefix": ".trim",
         "body": [".trim$1"],
-        "description": "If you want whitespace from user input to be trimmed automatically, you can add the trim modifier to your v-model-managed inputs"
+        "description": "If you want whitespace from user input to be trimmed automatically, you can add the trim modifier to your v-model-managed inputs (Vue.js snippet)"
     },
-    "Shorthand of v-on": {
+    "Shorthand of v-on (Vue.js snippet)": {
         "prefix": "@",
         "body": ["@$1"],
-        "description": "Shorthand of v-on"
+        "description": "Shorthand of v-on (Vue.js snippet)"
     },
-    "Shorthand of v-bind": {
+    "Shorthand of v-bind (Vue.js snippet)": {
         "prefix": ":",
         "body": [":$1"],
-        "description": "Shorthand of v-bind"
+        "description": "Shorthand of v-bind (Vue.js snippet)"
     },
-    "Shorthand of v-bind:href": {
+    "Shorthand of v-bind:href (Vue.js snippet)": {
         "prefix": ":href",
         "body": [":href=\"$1\""],
-        "description": "Shorthand of v-bind:href"
+        "description": "Shorthand of v-bind:href (Vue.js snippet)"
     },
-    "Shorthand of v-on:click": {
+    "Shorthand of v-on:click (Vue.js snippet)": {
         "prefix": "@click",
         "body": ["@click=\"$1\""],
-        "description": "Shorthand of v-on:click"
+        "description": "Shorthand of v-on:click (Vue.js snippet)"
     },
-    "Call event.stopPropagation()": {
+    "Call event.stopPropagation() (Vue.js snippet)": {
         "prefix": ".stop",
         "body": [".stop$1"],
-        "description": "Call event.stopPropagation()"
+        "description": "Call event.stopPropagation() (Vue.js snippet)"
     },
-    "Call event.preventDefault()": {
+    "Call event.preventDefault() (Vue.js snippet)": {
         "prefix": ".prevent",
         "body": [".prevent$1"],
-        "description": "Call event.preventDefault()"
+        "description": "Call event.preventDefault() (Vue.js snippet)"
     },
-    "Add event listener in capture mode": {
+    "Add event listener in capture mode (Vue.js snippet)": {
         "prefix": ".prevent",
         "body": [".capture$1"],
-        "description": "Add event listener in capture mode"
+        "description": "Add event listener in capture mode (Vue.js snippet)"
     },
-    "Listen for a native event on the root element of component": {
+    "Listen for a native event on the root element of component (Vue.js snippet)": {
         "prefix": ".native",
         "body": [".native$1"],
-        "description": "Listen for a native event on the root element of component"
+        "description": "Listen for a native event on the root element of component (Vue.js snippet)"
     },
-    "Trigger handler at most once": {
+    "Trigger handler at most once (Vue.js snippet)": {
         "prefix": ".once",
         "body": [".once$1"],
-        "description": "Trigger handler at most once"
+        "description": "Trigger handler at most once (Vue.js snippet)"
     },
-    "(2.2.0+) Only trigger handler for left button mouse events": {
+    "(2.2.0+) Only trigger handler for left button mouse events (Vue.js snippet)": {
         "prefix": ".left",
         "body": [".left$1"],
-        "description": "(2.2.0+) Only trigger handler for left button mouse events"
+        "description": "(2.2.0+) Only trigger handler for left button mouse events (Vue.js snippet)"
     },
-    "(2.2.0+) Only trigger handler for right button mouse events": {
+    "(2.2.0+) Only trigger handler for right button mouse events (Vue.js snippet)": {
         "prefix": ".right",
         "body": [".right$1"],
-        "description": "(2.2.0+) Only trigger handler for right button mouse events"
+        "description": "(2.2.0+) Only trigger handler for right button mouse events (Vue.js snippet)"
     },
-    "(2.2.0+) only trigger handler for middle button mouse events": {
+    "(2.2.0+) only trigger handler for middle button mouse events (Vue.js snippet)": {
         "prefix": ".middle",
         "body": [".middle$1"],
-        "description": "(2.2.0+) only trigger handler for middle button mouse events"
+        "description": "(2.2.0+) only trigger handler for middle button mouse events (Vue.js snippet)"
     },
-    "2.3.0+) attaches a DOM event with { passive: true }": {
+    "2.3.0+) attaches a DOM event with { passive: true } (Vue.js snippet)": {
         "prefix": ".passive",
         "body": [".passive$1"],
-        "description": "2.3.0+) attaches a DOM event with { passive: true }"
+        "description": "2.3.0+) attaches a DOM event with { passive: true } (Vue.js snippet)"
     }
 }
