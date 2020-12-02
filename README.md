@@ -99,6 +99,8 @@ You will get all the directive , Events , Property and Method supports.
 | ------- | --- | ----------- |
 | @click  | ->  | @click=""   |
 | :href   | ->  | :href=""    |
+| @       | ->  | @           |
+| :       | ->  | :           |
 
 # 10. The Vue Instance
 
