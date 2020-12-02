@@ -12,7 +12,7 @@ You will get all the directive , Events , Property and Method supports.
 
 # 1. Directives
 
-| Trigger   | ->  | Description  |
+| Trigger   | ->  | Snippet      |
 | --------- | --- | ------------ |
 | v-text    | ->  | v-text=""    |
 | v-html    | ->  | v-html=""    |
@@ -29,104 +29,104 @@ You will get all the directive , Events , Property and Method supports.
 
 # 2. Special Attributes
 
-| Trigger | ->  | Description |
-| ------- | --- | ----------- |
-| :key    | ->  | :key=""     |
-| ref     | ->  | ref=""      |
-| is      | ->  | is=""       |
+| Trigger | ->  | Snippet |
+| ------- | --- | ------- |
+| :key    | ->  | :key="" |
+| ref     | ->  | ref=""  |
+| is      | ->  | is=""   |
 
 # 3. Events
 
-| Trigger | ->  | Description |
-| ------- | --- | ----------- |
-| :click  | ->  | :click=""   |
+| Trigger | ->  | Snippet   |
+| ------- | --- | --------- |
+| :click  | ->  | :click="" |
 
 # 4. Event Modifiers
 
-| Trigger  | ->  | Description |
-| -------- | --- | ----------- |
-| .stop    | ->  | .stop       |
-| .prevent | ->  | .prevent    |
-| .capture | ->  | .capture    |
-| .self    | ->  | .self       |
-| .once    | ->  | .once       |
-| .lazy    | ->  | .lazy       |
-| .number  | ->  | .number     |
-| .trim    | ->  | .trim       |
-| .native  | ->  | .native     |
-| .passive | ->  | .passive    |
+| Trigger  | ->  | Snippet  |
+| -------- | --- | -------- |
+| .stop    | ->  | .stop    |
+| .prevent | ->  | .prevent |
+| .capture | ->  | .capture |
+| .self    | ->  | .self    |
+| .once    | ->  | .once    |
+| .lazy    | ->  | .lazy    |
+| .number  | ->  | .number  |
+| .trim    | ->  | .trim    |
+| .native  | ->  | .native  |
+| .passive | ->  | .passive |
 
 # 5. Key Modifiers
 
-| Trigger    | ->  | Description |
-| ---------- | --- | ----------- |
-| :keyup     | ->  | :keyup      |
-| .page-down | ->  | .page-down  |
+| Trigger    | ->  | Snippet    |
+| ---------- | --- | ---------- |
+| :keyup     | ->  | :keyup     |
+| .page-down | ->  | .page-down |
 
 # 6. Mouse Button Modifiers
 
-| Trigger | ->  | Description |
-| ------- | --- | ----------- |
-| .left   | ->  | .left       |
-| .right  | ->  | .right      |
-| .middle | ->  | .middle     |
+| Trigger | ->  | Snippet |
+| ------- | --- | ------- |
+| .left   | ->  | .left   |
+| .right  | ->  | .right  |
+| .middle | ->  | .middle |
 
 # 7. Key Codes
 
-| Trigger | ->  | Description |
-| ------- | --- | ----------- |
-| .enter  | ->  | .enter      |
+| Trigger | ->  | Snippet |
+| ------- | --- | ------- |
+| .enter  | ->  | .enter  |
 
 # 8. System Modifier Keys
 
-| Trigger | ->  | Description |
-| ------- | --- | ----------- |
-| .ctrl   | ->  | .ctrl       |
-| .alt    | ->  | .alt        |
-| .shift  | ->  | .shift      |
-| .meta   | ->  | .meta       |
-| .exact  | ->  | .exact      |
+| Trigger | ->  | Snippet |
+| ------- | --- | ------- |
+| .ctrl   | ->  | .ctrl   |
+| .alt    | ->  | .alt    |
+| .shift  | ->  | .shift  |
+| .meta   | ->  | .meta   |
+| .exact  | ->  | .exact  |
 
 # 9. HTML Attributes
 
-| Trigger | ->  | Description |
-| ------- | --- | ----------- |
-| :href   | ->  | :href=""    |
+| Trigger | ->  | Snippet  |
+| ------- | --- | -------- |
+| :href   | ->  | :href="" |
 
 # 10. Shorthands
 
-| Trigger | ->  | Description |
-| ------- | --- | ----------- |
-| @click  | ->  | @click=""   |
-| :href   | ->  | :href=""    |
-| @       | ->  | @           |
-| :       | ->  | :           |
+| Trigger | ->  | Snippet   |
+| ------- | --- | --------- |
+| @click  | ->  | @click="" |
+| :href   | ->  | :href=""  |
+| @       | ->  | @         |
+| :       | ->  | :         |
 
 # 10. The Vue Instance
 
-| Trigger   | ->  | Description |
-| --------- | --- | ----------- |
-| Vue       | ->  | Vue()       |
-| el        | ->  | el:         |
-| data      | ->  | data:       |
-| props     | ->  | props:      |
-| propsData | ->  | propsData:  |
-| computed  | ->  | computed:   |
-| methods   | ->  | methods:    |
-| watch     | ->  | watch:      |
-| mounted   | ->  | mounted:    |
-| mounted   | ->  | mounted:    |
-| template  | ->  | template    |
-| render    | ->  | render:     |
-| updated   | ->  | updated:    |
-| mixins    | ->  | mixins:     |
-| extends   | ->  | extends:    |
-| provide   | ->  | provide:    |
-| inject    | ->  | inject:     |
+| Trigger   | ->  | Snippet    |
+| --------- | --- | ---------- |
+| Vue       | ->  | Vue()      |
+| el        | ->  | el:        |
+| data      | ->  | data:      |
+| props     | ->  | props:     |
+| propsData | ->  | propsData: |
+| computed  | ->  | computed:  |
+| methods   | ->  | methods:   |
+| watch     | ->  | watch:     |
+| mounted   | ->  | mounted:   |
+| mounted   | ->  | mounted:   |
+| template  | ->  | template   |
+| render    | ->  | render:    |
+| updated   | ->  | updated:   |
+| mixins    | ->  | mixins:    |
+| extends   | ->  | extends:   |
+| provide   | ->  | provide:   |
+| inject    | ->  | inject:    |
 
 # 10. Components
 
-| Trigger       | ->  | Description     |
+| Trigger       | ->  | Snippet         |
 | ------------- | --- | --------------- |
 | Vue.component | ->  | Vue.component() |
 
