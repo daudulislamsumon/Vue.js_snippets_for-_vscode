@@ -4,75 +4,76 @@
     // Creation Date: 31/10/2020
     // Update Date: 10/11/2020
     // Update Date: 02/12/2020
+    // Update Date: 24/12/2020
 
     "The Vue Constructor (Vue.js snippet)": {
         "prefix": "Vue",
-        "body": ["Vue($1)"],
+        "body": ["Vue()"],
         "description": "The Vue Constructor (Vue.js snippet)"
     },
     "Provide the Vue instance an existing DOM element to mount on (Vue.js snippet)": {
         "prefix": "el",
-        "body": ["el: $1"],
+        "body": ["el: "],
         "description": "Provide the Vue instance an existing DOM element to mount on (Vue.js snippet)"
     },
     "The data object for the Vue instance (Vue.js snippet)": {
         "prefix": "data",
-        "body": ["data: $1"],
+        "body": ["data: "],
         "description": "The data object for the Vue instance (Vue.js snippet)"
     },
     "A list/hash of attributes that are exposed to accept data from the parent component (Vue.js snippet)": {
         "prefix": "props",
-        "body": ["props: $1"],
+        "body": ["props: "],
         "description": "A list/hash of attributes that are exposed to accept data from the parent component (Vue.js snippet)"
     },
     "Pass props to an instance during its creation (Vue.js snippet)": {
         "prefix": "propsData",
-        "body": ["propsData: $1"],
+        "body": ["propsData: "],
         "description": "Pass props to an instance during its creation (Vue.js snippet)"
     },
     "Computed properties to be mixed into the Vue instance (Vue.js snippet)": {
         "prefix": "computed",
-        "body": ["computed: $1"],
+        "body": ["computed: "],
         "description": "Computed properties to be mixed into the Vue instance (Vue.js snippet)"
     },
     "Methods to be mixed into the Vue instance (Vue.js snippet)": {
         "prefix": "methods",
-        "body": ["methods: $1"],
+        "body": ["methods: "],
         "description": "Methods to be mixed into the Vue instance (Vue.js snippet)"
     },
     "An object where keys are expressions to watch and values are the corresponding callbacks (Vue.js snippet)": {
         "prefix": "watch",
-        "body": ["watch: $1"],
+        "body": ["watch: "],
         "description": "An object where keys are expressions to watch and values are the corresponding callbacks (Vue.js snippet)"
     },
     "Called after the instance has been mounted, where el is replaced by the newly created vm.$el (Vue.js snippet)": {
         "prefix": "mounted",
-        "body": ["mounted: $1"],
+        "body": ["mounted: "],
         "description": "Called after the instance has been mounted, where el is replaced by the newly created vm.$el (Vue.js snippet)"
     },
     "Create Key value pair by colon (:) (Vue.js snippet)": {
         "prefix": ":",
-        "body": [": $1"],
+        "body": [": "],
         "description": "Create Key value pair by colon (:) (Vue.js snippet)"
     },
     "Define a new component (Vue.js snippet)": {
         "prefix": "Vue.component",
-        "body": ["Vue.component($1)"],
+        "body": ["Vue.component()"],
         "description": "Define a new component (Vue.js snippet)"
     },
     "A string template to be used as the markup for the Vue instance (Vue.js snippet)": {
-        "prefix": "template",
-        "body": ["template$1"],
+        "prefix": "x-template",
+        "body": ["x-template"],
         "description": "A string template to be used as the markup for the Vue instance (Vue.js snippet)"
     },
     "An alternative to string templates allowing you to leverage the full programmatic power of JavaScript (Vue.js snippet)": {
         "prefix": "render:",
-        "body": ["render: $1"],
+        "body": ["render: "],
         "description": "An alternative to string templates allowing you to leverage the full programmatic power of JavaScript (Vue.js snippet)"
     },
     "Called after a data change causes the virtual DOM to be re-rendered and patched (Vue.js snippet)": {
         "prefix": "updated:",
-        "body": ["updated: $1"],
+        "body": ["updated: "],
         "description": "Called after a data change causes the virtual DOM to be re-rendered and patched (Vue.js snippet)"
     },
     "The mixins option accepts an array of mixin objects (Vue.js snippet)": {
@@ -82,17 +83,17 @@
     },
     "Allows declaratively extending another component (could be either a plain options object or a constructor) without having to use Vue.extend (Vue.js snippet)": {
         "prefix": "extends:",
-        "body": ["extends: $1"],
+        "body": ["extends: "],
         "description": "Allows declaratively extending another component (could be either a plain options object or a constructor) without having to use Vue.extend (Vue.js snippet)"
     },
     "Provide is primarily provided for advanced plugin / component library use cases (Vue.js snippet)": {
         "prefix": "provide:",
-        "body": ["provide: $1"],
+        "body": ["provide: "],
         "description": "provide is primarily provided for advanced plugin / component library use cases (Vue.js snippet)"
     },
     "Inject is primarily provided for advanced plugin / component library use cases (Vue.js snippet)": {
         "prefix": "inject:",
-        "body": ["inject: $1"],
+        "body": ["inject: "],
         "description": "inject is primarily provided for advanced plugin / component library use cases (Vue.js snippet)"
     }
 }
