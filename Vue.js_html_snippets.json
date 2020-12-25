@@ -4,6 +4,8 @@
     // Creation Date: 30/10/2020
     // Update Date: 01/11/2020
     // Update Date: 02/12/2020
+    // Update Date: 24/12/2020
+    // Update Date: 25/12/2020
 
     "Updates the element’s textContent (Vue.js snippet)": {
         "prefix": "v-text",
@@ -224,5 +226,80 @@
         "prefix": ".passive",
         "body": [".passive$1"],
         "description": "2.3.0+) attaches a DOM event with { passive: true } (Vue.js snippet)"
+    },
+    "Shorthand of v-bind:class (Vue.js snippet)": {
+        "prefix": ":class",
+        "body": [":class=\"$1\""],
+        "description": "Shorthand of v-bind:class (Vue.js snippet)"
+    },
+    "Shorthand of v-bind:src (Vue.js snippet)": {
+        "prefix": ":src",
+        "body": [":src=\"$1\""],
+        "description": "Shorthand of v-bind:src (Vue.js snippet)"
+    },
+    "Shorthand of v-bind:prop (Vue.js snippet)": {
+        "prefix": ":prop",
+        "body": [":prop=\"$1\""],
+        "description": "Shorthand of v-bind:prop (Vue.js snippet)"
+    },
+    "Shorthand of v-bind:style (Vue.js snippet)": {
+        "prefix": ":style",
+        "body": [":style=\"$1\""],
+        "description": "Shorthand of v-bind:style (Vue.js snippet)"
+    },
+    "Shorthand of v-on:keyup (Vue.js snippet)": {
+        "prefix": "@keyup",
+        "body": ["@keyup=\"$1\""],
+        "description": "Shorthand of v-on:keyup (Vue.js snippet)"
+    },
+    "Mouse down DOM event (Vue.js snippet)": {
+        "prefix": "@mousedown",
+        "body": ["@mousedown=\"$1\""],
+        "description": "Mouse down DOM event (Vue.js snippet)"
+    },
+    "Mouse up DOM event (Vue.js snippet)": {
+        "prefix": "@mouseup",
+        "body": ["@mouseup=\"$1\""],
+        "description": "Mouse up DOM event (Vue.js snippet)"
+    },
+    "Double click DOM event (Vue.js snippet)": {
+        "prefix": "@dblclick",
+        "body": ["@dblclick=\"$1\""],
+        "description": "Double click DOM event (Vue.js snippet)"
+    },
+    "Mouse move DOM event (Vue.js snippet)": {
+        "prefix": "@mousemove",
+        "body": ["@mousemove=\"$1\""],
+        "description": "Mouse move DOM event (Vue.js snippet)"
+    },
+    "Mouse over DOM event (Vue.js snippet)": {
+        "prefix": "@mouseover",
+        "body": ["@mouseover=\"$1\""],
+        "description": "Mouse over DOM event (Vue.js snippet)"
+    },
+    "Mouse wheel DOM event (Vue.js snippet)": {
+        "prefix": "@mousewheel",
+        "body": ["@mousewheel=\"$1\""],
+        "description": "Mouse wheel DOM event (Vue.js snippet)"
+    },
+    "Mouse out DOM event (Vue.js snippet)": {
+        "prefix": "@mouseout",
+        "body": ["@mouseout=\"$1\""],
+        "description": "Mouse out DOM event (Vue.js snippet)"
+    },
+    "Key press DOM event (Vue.js snippet)": {
+        "prefix": "@keypress",
+        "body": ["@keypress=\"$1\""],
+        "description": "Key press DOM event (Vue.js snippet)"
+    },
+    "Key down DOM event (Vue.js snippet)": {
+        "prefix": "@keydown",
+        "body": ["@keydown=\"$1\""],
+        "description": "Key down DOM event (Vue.js snippet)"
+    },
+    "Shorthand of v-bind:id (Vue.js snippet)": {
+        "prefix": ":id",
+        "body": [":id=\"$1\""],
+        "description": "Shorthand of v-bind:id (Vue.js snippet)"
     }
 }
