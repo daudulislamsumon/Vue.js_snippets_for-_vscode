@@ -89,18 +89,32 @@ You will get all the directive , Events , Property and Method supports.
 
 # 9. HTML Attributes
 
-| Trigger | ->  | Snippet  |
-| ------- | --- | -------- |
-| :href   | ->  | :href="" |
+| Trigger | ->  | Snippet   |
+| ------- | --- | --------- |
+| :href   | ->  | :href=""  |
+| :id     | ->  | :id=""    |
+| :class  | ->  | :class="" |
+| :src    | ->  | :src=""   |
+| :style  | ->  | :style="" |
 
 # 10. Shorthands
 
-| Trigger | ->  | Snippet   |
-| ------- | --- | --------- |
-| @click  | ->  | @click="" |
-| :href   | ->  | :href=""  |
-| @       | ->  | @         |
-| :       | ->  | :         |
+| Trigger     | ->  | Snippet        |
+| ----------- | --- | -------------- |
+| @click      | ->  | @click=""      |
+| @keyup      | ->  | @keyup=""      |
+| @mousedown  | ->  | @mousedown=""  |
+| @mouseup    | ->  | @mouseup=""    |
+| @dblclick   | ->  | @dblclick=""   |
+| @mousemove  | ->  | @mousemove=""  |
+| @mouseover  | ->  | @mouseover=""  |
+| @mousewheel | ->  | @mousewheel="" |
+| @mouseout   | ->  | @mouseout=""   |
+| @keypress   | ->  | @keypress=""   |
+| @keydown    | ->  | @keydown=""    |
+| :prop       | ->  | :prop=""       |
+| @           | ->  | @              |
+| :           | ->  | :              |
 
 # 10. The Vue Instance
 
