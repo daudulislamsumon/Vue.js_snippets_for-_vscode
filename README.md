@@ -115,6 +115,7 @@ You will get all the directive , Events , Property and Method supports.
 | :prop       | ->  | :prop=""       |
 | @           | ->  | @              |
 | :           | ->  | :              |
+| {{}}        | ->  | {{  }}         |
 
 # 10. The Vue Instance
 
