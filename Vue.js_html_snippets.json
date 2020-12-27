@@ -6,6 +6,7 @@
     // Update Date: 02/12/2020
     // Update Date: 24/12/2020
     // Update Date: 25/12/2020
+    // Update Date: 27/12/2020
 
     "Updates the element’s textContent (Vue.js snippet)": {
         "prefix": "v-text",
@@ -301,5 +302,10 @@
         "prefix": ":id",
         "body": [":id=\"$1\""],
         "description": "Shorthand of v-bind:id (Vue.js snippet)"
+    },
+    "Vue “Mustache” syntax (double curly braces) (Vue.js snippet)": {
+        "prefix": "{{}}",
+        "body": ["{{ $1 }}"],
+        "description": "Vue “Mustache” syntax (double curly braces) (Vue.js snippet)"
     }
 }
