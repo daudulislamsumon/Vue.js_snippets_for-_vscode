@@ -114,7 +114,6 @@ You will get all the directive , Events , Property and Method supports.
 | @keydown    | ->  | @keydown=""    |
 | :prop       | ->  | :prop=""       |
 | @           | ->  | @              |
-| :           | ->  | :              |
 | {{}}        | ->  | {{  }}         |
 
 # 10. The Vue Instance
