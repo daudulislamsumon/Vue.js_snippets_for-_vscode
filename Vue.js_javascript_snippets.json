@@ -51,11 +51,6 @@
         "body": ["mounted: "],
         "description": "Called after the instance has been mounted, where el is replaced by the newly created vm.$el (Vue.js snippet)"
     },
-    "Create Key value pair by colon (:) (Vue.js snippet)": {
-        "prefix": ":",
-        "body": [": "],
-        "description": "Create Key value pair by colon (:) (Vue.js snippet)"
-    },
     "Define a new component (Vue.js snippet)": {
         "prefix": "Vue.component",
         "body": ["Vue.component()"],
