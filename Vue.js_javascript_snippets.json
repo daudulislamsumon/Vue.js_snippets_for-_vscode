@@ -98,6 +98,26 @@
         "body": ["template: "],
         "description": "Template in Vue instance (Vue.js 2 snippet)"
     },
+    "Use plugins by calling the Vue.use() global method (Vue.js 2 snippet)": {
+        "prefix": "Vue.use",
+        "body": ["Vue.use()"],
+        "description": "Use plugins by calling the Vue.use() global method (Vue.js 2 snippet)"
+    },
+    "Apply a mixin globally, which affects every Vue instance created afterwards (Vue.js 2 snippet)": {
+        "prefix": "Vue.mixin",
+        "body": ["Vue.mixin()"],
+        "description": "Apply a mixin globally, which affects every Vue instance created afterwards (Vue.js 2 snippet)"
+    },
+    "Compiles a template string into a render function (Vue.js 2 snippet)": {
+        "prefix": "Vue.compile",
+        "body": ["Vue.compile()"],
+        "description": "Compiles a template string into a render function (Vue.js 2 snippet)"
+    },
+    "Use data as function while define a new component using Vue.componet() (Vue.js 2 snippet)": {
+        "prefix": "data()",
+        "body": ["data() {}"],
+        "description": "Use data as function while define a new component using Vue.componet() (Vue.js 2 snippet)"
+    },
     "Create Vue instance with createApp() method (Vue.js 3 snippet)": {
         "prefix": "Vue.createApp",
         "body": ["Vue.createApp()"],
