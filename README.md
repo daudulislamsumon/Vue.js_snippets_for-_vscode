@@ -143,6 +143,7 @@ You will get all the directive , Events , Property and Method supports.
 | Trigger       | ->  | Snippet         |
 | ------------- | --- | --------------- |
 | Vue.component | ->  | Vue.component() |
+| template      | ->  | template:       |
 
 ## Contributing
 
