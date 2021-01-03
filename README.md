@@ -116,7 +116,7 @@ You will get all the directive , Events , Property and Method supports.
 | @           | ->  | @              |
 | {{}}        | ->  | {{  }}         |
 
-# 10. The Vue Instance
+# 11. The Vue Instance
 
 | Trigger   | ->  | Snippet    |
 | --------- | --- | ---------- |
@@ -138,7 +138,13 @@ You will get all the directive , Events , Property and Method supports.
 | provide   | ->  | provide:   |
 | inject    | ->  | inject:    |
 
-# 10. Components
+# 12. The Vue Instance (Vue 3)
+
+| Trigger       | ->  | Snippet         |
+| ------------- | --- | --------------- |
+| Vue.createApp | ->  | Vue.createApp() |
+
+# 13. Components
 
 | Trigger       | ->  | Snippet         |
 | ------------- | --- | --------------- |
