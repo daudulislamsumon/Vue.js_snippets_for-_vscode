@@ -137,6 +137,7 @@ You will get all the directive , Events , Property and Method supports.
 | extends   | ->  | extends:   |
 | provide   | ->  | provide:   |
 | inject    | ->  | inject:    |
+| template  | ->  | template:  |
 
 # 12. The Vue Instance (Vue 3)
 
@@ -149,7 +150,10 @@ You will get all the directive , Events , Property and Method supports.
 | Trigger       | ->  | Snippet         |
 | ------------- | --- | --------------- |
 | Vue.component | ->  | Vue.component() |
-| template      | ->  | template:       |
+| Vue.use       | ->  | Vue.use()       |
+| Vue.mixin     | ->  | Vue.mixin()     |
+| Vue.compile   | ->  | Vue.compile()   |
+| data()        | ->  | data() {}       |
 
 ## Contributing
 
