@@ -98,9 +98,9 @@
         "body": ["template: "],
         "description": "Template in Vue instance (Vue.js 2 snippet)"
     },
-    "The Vue Constructor with createApp() method (Vue.js 3 snippet)": {
+    "Create Vue instance with createApp() method (Vue.js 3 snippet)": {
         "prefix": "Vue.createApp",
         "body": ["Vue.createApp()"],
-        "description": "The Vue Constructor with createApp() method (Vue.js 3 snippet)"
+        "description": "Create Vue instance with createApp() method (Vue.js 3 snippet)"
     }
 }
