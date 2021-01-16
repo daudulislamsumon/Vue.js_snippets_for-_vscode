@@ -155,6 +155,17 @@ You will get all the directive , Events , Property and Method supports.
 | Vue.compile   | ->  | Vue.compile()   |
 | data()        | ->  | data() {}       |
 
+# 14. Vue Router
+
+| Trigger       | ->  | Snippet                     |
+| ------------- | --- | --------------------------- |
+| <router-view> | ->  | <router-view></router-view> |
+| <router-link> | ->  | <router-link></router-link> |
+| routes        | ->  | routes: []                  |
+| path          | ->  | path: ''                    |
+| component     | ->  | component:                  |
+| children      | ->  | children: []                |
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

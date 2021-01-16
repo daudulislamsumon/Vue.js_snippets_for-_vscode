@@ -7,6 +7,8 @@
     // Update Date: 24/12/2020
     // Update Date: 02/01/2021
     // Update Date: 03/01/2021
+    // Update Date: 10/01/2021
+    // Update Date: 16/01/2021
 
     "The Vue Constructor (Vue.js 2 snippet)": {
         "prefix": "Vue",
@@ -118,9 +120,49 @@
         "body": ["data() {}"],
         "description": "Use data as function while define a new component using Vue.componet() (Vue.js 2 snippet)"
     },
+    "Vue “Mustache” syntax (double curly braces) (Vue.js snippet)": {
+        "prefix": "{{}}",
+        "body": ["{{ $1 }}"],
+        "description": "Vue “Mustache” syntax (double curly braces) (Vue.js snippet)"
+    },
     "Create Vue instance with createApp() method (Vue.js 3 snippet)": {
         "prefix": "Vue.createApp",
         "body": ["Vue.createApp()"],
         "description": "Create Vue instance with createApp() method (Vue.js 3 snippet)"
+    },
+    "A hash of components to be made available to the Vue instance (Vue.js 2 snippet)": {
+        "prefix": "components",
+        "body": ["components: "],
+        "description": "A hash of components to be made available to the Vue instance (Vue.js 2 snippet)"
+    },
+    "<router-link> is the component for enabling user navigation in a router-enabled app (Vue.js snippet)": {
+        "prefix": "<router-link>",
+        "body": ["<router-link></router-link>"],
+        "description": "<router-link> is the component for enabling user navigation in a router-enabled app (Vue.js snippet)"
+    },
+    "The <router-view> component is a functional component that renders the matched component for the given path (Vue.js snippet)": {
+        "prefix": "<router-view>",
+        "body": ["<router-view></router-view>"],
+        "description": "The <router-view> component is a functional component that renders the matched component for the given path (Vue.js snippet)"
+    },
+    "The routes property (Vue.js snippet)": {
+        "prefix": "routes:",
+        "body": ["routes: []"],
+        "description": "The routes property (Vue.js snippet)"
+    },
+    "The path property (Vue.js snippet)": {
+        "prefix": "path:",
+        "body": ["path: ''"],
+        "description": "The path property (Vue.js snippet)"
+    },
+    "The component property (Vue.js snippet)": {
+        "prefix": "component:",
+        "body": ["component: "],
+        "description": "The component property (Vue.js snippet)"
+    },
+    "The children property (Vue.js snippet)": {
+        "prefix": "children:",
+        "body": ["children: []"],
+        "description": "The children property (Vue.js snippet)"
     }
 }
