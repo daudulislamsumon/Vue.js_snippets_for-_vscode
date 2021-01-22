@@ -7,6 +7,8 @@
     // Update Date: 24/12/2020
     // Update Date: 25/12/2020
     // Update Date: 27/12/2020
+    // Update Date: 21/01/2021
+    // Update Date: 22/01/2021
 
     "Updates the element’s textContent (Vue.js snippet)": {
         "prefix": "v-text",
@@ -307,5 +309,15 @@
         "prefix": "{{}}",
         "body": ["{{ $1 }}"],
         "description": "Vue “Mustache” syntax (double curly braces) (Vue.js snippet)"
+    },
+    "Programmatic Navigation with :to attribute (Vue.js snippet)": {
+        "prefix": ":to",
+        "body": [":to=\"{}\""],
+        "description": "Programmatic Navigation with :to attribute (Vue.js snippet)"
+    },
+    "V-for with Key (Vue.js snippet)": {
+        "prefix": "v-for",
+        "body": ["v-for=\"$1\" :key=\"$2\""],
+        "description": "V-for with Key (Vue.js snippet)"
     }
 }
