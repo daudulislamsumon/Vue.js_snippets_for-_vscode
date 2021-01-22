@@ -9,6 +9,7 @@
     // Update Date: 03/01/2021
     // Update Date: 10/01/2021
     // Update Date: 16/01/2021
+    // Update Date: 17/01/2021
 
     "The Vue Constructor (Vue.js 2 snippet)": {
         "prefix": "Vue",
@@ -164,5 +165,10 @@
         "prefix": "children:",
         "body": ["children: []"],
         "description": "The children property (Vue.js snippet)"
+    },
+    "The router property (Vue.js snippet)": {
+        "prefix": "router",
+        "body": ["router: "],
+        "description": "The router property (Vue.js snippet)"
     }
 }
