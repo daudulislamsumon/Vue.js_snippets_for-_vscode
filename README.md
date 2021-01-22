@@ -17,6 +17,7 @@ You will get all the directive , Events , Property and Method supports.
 | v-text    | ->  | v-text=""    |
 | v-html    | ->  | v-html=""    |
 | v-show    | ->  | v-show=""    |
+| v-for     | ->  | v-for=""     |
 | v-if      | ->  | v-if=""      |
 | v-else    | ->  | v-else       |
 | v-else-if | ->  | v-else-if="" |
@@ -99,22 +100,24 @@ You will get all the directive , Events , Property and Method supports.
 
 # 10. Shorthands
 
-| Trigger     | ->  | Snippet        |
-| ----------- | --- | -------------- |
-| @click      | ->  | @click=""      |
-| @keyup      | ->  | @keyup=""      |
-| @mousedown  | ->  | @mousedown=""  |
-| @mouseup    | ->  | @mouseup=""    |
-| @dblclick   | ->  | @dblclick=""   |
-| @mousemove  | ->  | @mousemove=""  |
-| @mouseover  | ->  | @mouseover=""  |
-| @mousewheel | ->  | @mousewheel="" |
-| @mouseout   | ->  | @mouseout=""   |
-| @keypress   | ->  | @keypress=""   |
-| @keydown    | ->  | @keydown=""    |
-| :prop       | ->  | :prop=""       |
-| @           | ->  | @              |
-| {{}}        | ->  | {{  }}         |
+| Trigger     | ->  | Snippet          |
+| ----------- | --- | ---------------- |
+| @click      | ->  | @click=""        |
+| @keyup      | ->  | @keyup=""        |
+| @mousedown  | ->  | @mousedown=""    |
+| @mouseup    | ->  | @mouseup=""      |
+| @dblclick   | ->  | @dblclick=""     |
+| @mousemove  | ->  | @mousemove=""    |
+| @mouseover  | ->  | @mouseover=""    |
+| @mousewheel | ->  | @mousewheel=""   |
+| @mouseout   | ->  | @mouseout=""     |
+| @keypress   | ->  | @keypress=""     |
+| @keydown    | ->  | @keydown=""      |
+| :prop       | ->  | :prop=""         |
+| @           | ->  | @                |
+| {{}}        | ->  | {{  }}           |
+| v-for       | ->  | v-for="" :key="" |
+| :to         | ->  | :to="{}"         |
 
 # 11. The Vue Instance
 
