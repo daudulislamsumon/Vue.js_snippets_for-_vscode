@@ -9,6 +9,7 @@
     // Update Date: 27/12/2020
     // Update Date: 21/01/2021
     // Update Date: 22/01/2021
+    // Update Date: 23/01/2021
 
     "Updates the element’s textContent (Vue.js snippet)": {
         "prefix": "v-text",
@@ -319,5 +320,10 @@
         "prefix": "v-for",
         "body": ["v-for=\"$1\" :key=\"$2\""],
         "description": "V-for with Key (Vue.js snippet)"
+    },
+    "Params property (Vue.js snippet)": {
+        "prefix": "params",
+        "body": ["params: {}"],
+        "description": "Params property (Vue.js snippet)"
     }
 }
