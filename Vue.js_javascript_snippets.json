@@ -1,174 +1,185 @@
 {
-    // Vue.js snippets for Visual Studio Code
-    // Author: Md Daudul Islam <md.daudulislamsumon@gmail.com>
-    // Creation Date: 31/10/2020
-    // Update Date: 10/11/2020
-    // Update Date: 02/12/2020
-    // Update Date: 24/12/2020
-    // Update Date: 02/01/2021
-    // Update Date: 03/01/2021
-    // Update Date: 10/01/2021
-    // Update Date: 16/01/2021
-    // Update Date: 17/01/2021
+  // Vue.js snippets for Visual Studio Code
+  // Author: Md Daudul Islam <md.daudulislamsumon@gmail.com>
+  // Creation Date: 31/10/2020
+  // Update Date: 10/11/2020
+  // Update Date: 02/12/2020
+  // Update Date: 24/12/2020
+  // Update Date: 02/01/2021
+  // Update Date: 03/01/2021
+  // Update Date: 10/01/2021
+  // Update Date: 16/01/2021
+  // Update Date: 17/01/2021
+  // Update Date: 31/01/2021
 
-    "The Vue Constructor (Vue.js 2 snippet)": {
-        "prefix": "Vue",
-        "body": ["Vue()"],
-        "description": "The Vue Constructor (Vue.js 2 snippet)"
-    },
-    "Provide the Vue instance an existing DOM element to mount on (Vue.js 2 snippet)": {
-        "prefix": "el",
-        "body": ["el: "],
-        "description": "Provide the Vue instance an existing DOM element to mount on (Vue.js 2 snippet)"
-    },
-    "The data object for the Vue instance (Vue.js 2 snippet)": {
-        "prefix": "data",
-        "body": ["data: "],
-        "description": "The data object for the Vue instance (Vue.js 2 snippet)"
-    },
-    "A list/hash of attributes that are exposed to accept data from the parent component (Vue.js 2 snippet)": {
-        "prefix": "props",
-        "body": ["props: "],
-        "description": "A list/hash of attributes that are exposed to accept data from the parent component (Vue.js 2 snippet)"
-    },
-    "Pass props to an instance during its creation (Vue.js 2 snippet)": {
-        "prefix": "propsData",
-        "body": ["propsData: "],
-        "description": "Pass props to an instance during its creation (Vue.js 2 snippet)"
-    },
-    "Computed properties to be mixed into the Vue instance (Vue.js 2 snippet)": {
-        "prefix": "computed",
-        "body": ["computed: "],
-        "description": "Computed properties to be mixed into the Vue instance (Vue.js 2 snippet)"
-    },
-    "Methods to be mixed into the Vue instance (Vue.js 2 snippet)": {
-        "prefix": "methods",
-        "body": ["methods: "],
-        "description": "Methods to be mixed into the Vue instance (Vue.js 2 snippet)"
-    },
-    "An object where keys are expressions to watch and values are the corresponding callbacks (Vue.js 2 snippet)": {
-        "prefix": "watch",
-        "body": ["watch: "],
-        "description": "An object where keys are expressions to watch and values are the corresponding callbacks (Vue.js 2 snippet)"
-    },
-    "Called after the instance has been mounted, where el is replaced by the newly created vm.$el (Vue.js 2 snippet)": {
-        "prefix": "mounted",
-        "body": ["mounted: "],
-        "description": "Called after the instance has been mounted, where el is replaced by the newly created vm.$el (Vue.js 2 snippet)"
-    },
-    "Define a new component (Vue.js 2 snippet)": {
-        "prefix": "Vue.component",
-        "body": ["Vue.component()"],
-        "description": "Define a new component (Vue.js 2 snippet)"
-    },
-    "A string template to be used as the markup for the Vue instance (Vue.js 2 snippet)": {
-        "prefix": "x-template",
-        "body": ["x-template"],
-        "description": "A string template to be used as the markup for the Vue instance (Vue.js 2 snippet)"
-    },
-    "An alternative to string templates allowing you to leverage the full programmatic power of JavaScript (Vue.js 2 snippet)": {
-        "prefix": "render:",
-        "body": ["render: "],
-        "description": "An alternative to string templates allowing you to leverage the full programmatic power of JavaScript (Vue.js 2 snippet)"
-    },
-    "Called after a data change causes the virtual DOM to be re-rendered and patched (Vue.js 2 snippet)": {
-        "prefix": "updated:",
-        "body": ["updated: "],
-        "description": "Called after a data change causes the virtual DOM to be re-rendered and patched (Vue.js 2 snippet)"
-    },
-    "The mixins option accepts an array of mixin objects (Vue.js 2 snippet)": {
-        "prefix": "mixins:",
-        "body": ["mixins: $1"],
-        "description": "The mixins option accepts an array of mixin objects (Vue.js 2 snippet)"
-    },
-    "Allows declaratively extending another component (could be either a plain options object or a constructor) without having to use Vue.extend (Vue.js 2 snippet)": {
-        "prefix": "extends:",
-        "body": ["extends: "],
-        "description": "Allows declaratively extending another component (could be either a plain options object or a constructor) without having to use Vue.extend (Vue.js 2 snippet)"
-    },
-    "Provide is primarily provided for advanced plugin / component library use cases (Vue.js 2 snippet)": {
-        "prefix": "provide:",
-        "body": ["provide: "],
-        "description": "provide is primarily provided for advanced plugin / component library use cases (Vue.js 2 snippet)"
-    },
-    "Inject is primarily provided for advanced plugin / component library use cases (Vue.js 2 snippet)": {
-        "prefix": "inject:",
-        "body": ["inject: "],
-        "description": "inject is primarily provided for advanced plugin / component library use cases (Vue.js 2 snippet)"
-    },
-    "Template in Vue instance (Vue.js 2 snippet)": {
-        "prefix": "template:",
-        "body": ["template: "],
-        "description": "Template in Vue instance (Vue.js 2 snippet)"
-    },
-    "Use plugins by calling the Vue.use() global method (Vue.js 2 snippet)": {
-        "prefix": "Vue.use",
-        "body": ["Vue.use()"],
-        "description": "Use plugins by calling the Vue.use() global method (Vue.js 2 snippet)"
-    },
-    "Apply a mixin globally, which affects every Vue instance created afterwards (Vue.js 2 snippet)": {
-        "prefix": "Vue.mixin",
-        "body": ["Vue.mixin()"],
-        "description": "Apply a mixin globally, which affects every Vue instance created afterwards (Vue.js 2 snippet)"
-    },
-    "Compiles a template string into a render function (Vue.js 2 snippet)": {
-        "prefix": "Vue.compile",
-        "body": ["Vue.compile()"],
-        "description": "Compiles a template string into a render function (Vue.js 2 snippet)"
-    },
-    "Use data as function while define a new component using Vue.componet() (Vue.js 2 snippet)": {
-        "prefix": "data()",
-        "body": ["data() {}"],
-        "description": "Use data as function while define a new component using Vue.componet() (Vue.js 2 snippet)"
-    },
-    "Vue “Mustache” syntax (double curly braces) (Vue.js snippet)": {
-        "prefix": "{{}}",
-        "body": ["{{ $1 }}"],
-        "description": "Vue “Mustache” syntax (double curly braces) (Vue.js snippet)"
-    },
-    "Create Vue instance with createApp() method (Vue.js 3 snippet)": {
-        "prefix": "Vue.createApp",
-        "body": ["Vue.createApp()"],
-        "description": "Create Vue instance with createApp() method (Vue.js 3 snippet)"
-    },
-    "A hash of components to be made available to the Vue instance (Vue.js 2 snippet)": {
-        "prefix": "components",
-        "body": ["components: "],
-        "description": "A hash of components to be made available to the Vue instance (Vue.js 2 snippet)"
-    },
-    "<router-link> is the component for enabling user navigation in a router-enabled app (Vue.js snippet)": {
-        "prefix": "<router-link>",
-        "body": ["<router-link></router-link>"],
-        "description": "<router-link> is the component for enabling user navigation in a router-enabled app (Vue.js snippet)"
-    },
-    "The <router-view> component is a functional component that renders the matched component for the given path (Vue.js snippet)": {
-        "prefix": "<router-view>",
-        "body": ["<router-view></router-view>"],
-        "description": "The <router-view> component is a functional component that renders the matched component for the given path (Vue.js snippet)"
-    },
-    "The routes property (Vue.js snippet)": {
-        "prefix": "routes:",
-        "body": ["routes: []"],
-        "description": "The routes property (Vue.js snippet)"
-    },
-    "The path property (Vue.js snippet)": {
-        "prefix": "path:",
-        "body": ["path: ''"],
-        "description": "The path property (Vue.js snippet)"
-    },
-    "The component property (Vue.js snippet)": {
-        "prefix": "component:",
-        "body": ["component: "],
-        "description": "The component property (Vue.js snippet)"
-    },
-    "The children property (Vue.js snippet)": {
-        "prefix": "children:",
-        "body": ["children: []"],
-        "description": "The children property (Vue.js snippet)"
-    },
-    "The router property (Vue.js snippet)": {
-        "prefix": "router",
-        "body": ["router: "],
-        "description": "The router property (Vue.js snippet)"
-    }
+  "The Vue Constructor (Vue.js 2 snippet)": {
+    "prefix": "Vue",
+    "body": ["Vue()"],
+    "description": "The Vue Constructor (Vue.js 2 snippet)"
+  },
+  "Provide the Vue instance an existing DOM element to mount on (Vue.js 2 snippet)": {
+    "prefix": "el",
+    "body": ["el: "],
+    "description": "Provide the Vue instance an existing DOM element to mount on (Vue.js 2 snippet)"
+  },
+  "The data object for the Vue instance (Vue.js 2 snippet)": {
+    "prefix": "data",
+    "body": ["data: "],
+    "description": "The data object for the Vue instance (Vue.js 2 snippet)"
+  },
+  "A list/hash of attributes that are exposed to accept data from the parent component (Vue.js 2 snippet)": {
+    "prefix": "props",
+    "body": ["props: "],
+    "description": "A list/hash of attributes that are exposed to accept data from the parent component (Vue.js 2 snippet)"
+  },
+  "Pass props to an instance during its creation (Vue.js 2 snippet)": {
+    "prefix": "propsData",
+    "body": ["propsData: "],
+    "description": "Pass props to an instance during its creation (Vue.js 2 snippet)"
+  },
+  "Computed properties to be mixed into the Vue instance (Vue.js 2 snippet)": {
+    "prefix": "computed",
+    "body": ["computed: "],
+    "description": "Computed properties to be mixed into the Vue instance (Vue.js 2 snippet)"
+  },
+  "Methods to be mixed into the Vue instance (Vue.js 2 snippet)": {
+    "prefix": "methods",
+    "body": ["methods: "],
+    "description": "Methods to be mixed into the Vue instance (Vue.js 2 snippet)"
+  },
+  "An object where keys are expressions to watch and values are the corresponding callbacks (Vue.js 2 snippet)": {
+    "prefix": "watch",
+    "body": ["watch: "],
+    "description": "An object where keys are expressions to watch and values are the corresponding callbacks (Vue.js 2 snippet)"
+  },
+  "Called after the instance has been mounted, where el is replaced by the newly created vm.$el (Vue.js 2 snippet)": {
+    "prefix": "mounted",
+    "body": ["mounted: "],
+    "description": "Called after the instance has been mounted, where el is replaced by the newly created vm.$el (Vue.js 2 snippet)"
+  },
+  "Define a new component (Vue.js 2 snippet)": {
+    "prefix": "Vue.component",
+    "body": ["Vue.component()"],
+    "description": "Define a new component (Vue.js 2 snippet)"
+  },
+  "A string template to be used as the markup for the Vue instance (Vue.js 2 snippet)": {
+    "prefix": "x-template",
+    "body": ["x-template"],
+    "description": "A string template to be used as the markup for the Vue instance (Vue.js 2 snippet)"
+  },
+  "An alternative to string templates allowing you to leverage the full programmatic power of JavaScript (Vue.js 2 snippet)": {
+    "prefix": "render:",
+    "body": ["render: "],
+    "description": "An alternative to string templates allowing you to leverage the full programmatic power of JavaScript (Vue.js 2 snippet)"
+  },
+  "Called after a data change causes the virtual DOM to be re-rendered and patched (Vue.js 2 snippet)": {
+    "prefix": "updated:",
+    "body": ["updated: "],
+    "description": "Called after a data change causes the virtual DOM to be re-rendered and patched (Vue.js 2 snippet)"
+  },
+  "The mixins option accepts an array of mixin objects (Vue.js 2 snippet)": {
+    "prefix": "mixins:",
+    "body": ["mixins: $1"],
+    "description": "The mixins option accepts an array of mixin objects (Vue.js 2 snippet)"
+  },
+  "Allows declaratively extending another component (could be either a plain options object or a constructor) without having to use Vue.extend (Vue.js 2 snippet)": {
+    "prefix": "extends:",
+    "body": ["extends: "],
+    "description": "Allows declaratively extending another component (could be either a plain options object or a constructor) without having to use Vue.extend (Vue.js 2 snippet)"
+  },
+  "Provide is primarily provided for advanced plugin / component library use cases (Vue.js 2 snippet)": {
+    "prefix": "provide:",
+    "body": ["provide: "],
+    "description": "provide is primarily provided for advanced plugin / component library use cases (Vue.js 2 snippet)"
+  },
+  "Inject is primarily provided for advanced plugin / component library use cases (Vue.js 2 snippet)": {
+    "prefix": "inject:",
+    "body": ["inject: "],
+    "description": "inject is primarily provided for advanced plugin / component library use cases (Vue.js 2 snippet)"
+  },
+  "Template in Vue instance (Vue.js 2 snippet)": {
+    "prefix": "template:",
+    "body": ["template: "],
+    "description": "Template in Vue instance (Vue.js 2 snippet)"
+  },
+  "Use plugins by calling the Vue.use() global method (Vue.js 2 snippet)": {
+    "prefix": "Vue.use",
+    "body": ["Vue.use()"],
+    "description": "Use plugins by calling the Vue.use() global method (Vue.js 2 snippet)"
+  },
+  "Apply a mixin globally, which affects every Vue instance created afterwards (Vue.js 2 snippet)": {
+    "prefix": "Vue.mixin",
+    "body": ["Vue.mixin()"],
+    "description": "Apply a mixin globally, which affects every Vue instance created afterwards (Vue.js 2 snippet)"
+  },
+  "Compiles a template string into a render function (Vue.js 2 snippet)": {
+    "prefix": "Vue.compile",
+    "body": ["Vue.compile()"],
+    "description": "Compiles a template string into a render function (Vue.js 2 snippet)"
+  },
+  "Use data as function while define a new component using Vue.componet() (Vue.js 2 snippet)": {
+    "prefix": "data()",
+    "body": ["data() {}"],
+    "description": "Use data as function while define a new component using Vue.componet() (Vue.js 2 snippet)"
+  },
+  "Vue “Mustache” syntax (double curly braces) (Vue.js snippet)": {
+    "prefix": "{{}}",
+    "body": ["{{ $1 }}"],
+    "description": "Vue “Mustache” syntax (double curly braces) (Vue.js snippet)"
+  },
+  "Create Vue instance with createApp() method (Vue.js 3 snippet)": {
+    "prefix": "Vue.createApp",
+    "body": ["Vue.createApp()"],
+    "description": "Create Vue instance with createApp() method (Vue.js 3 snippet)"
+  },
+  "A hash of components to be made available to the Vue instance (Vue.js 2 snippet)": {
+    "prefix": "components",
+    "body": ["components: "],
+    "description": "A hash of components to be made available to the Vue instance (Vue.js 2 snippet)"
+  },
+  "<router-link> is the component for enabling user navigation in a router-enabled app (Vue.js snippet)": {
+    "prefix": "<router-link>",
+    "body": ["<router-link></router-link>"],
+    "description": "<router-link> is the component for enabling user navigation in a router-enabled app (Vue.js snippet)"
+  },
+  "The <router-view> component is a functional component that renders the matched component for the given path (Vue.js snippet)": {
+    "prefix": "<router-view>",
+    "body": ["<router-view></router-view>"],
+    "description": "The <router-view> component is a functional component that renders the matched component for the given path (Vue.js snippet)"
+  },
+  "The routes property (Vue.js snippet)": {
+    "prefix": "routes:",
+    "body": ["routes: []"],
+    "description": "The routes property (Vue.js snippet)"
+  },
+  "The path property (Vue.js snippet)": {
+    "prefix": "path:",
+    "body": ["path: ''"],
+    "description": "The path property (Vue.js snippet)"
+  },
+  "The component property (Vue.js snippet)": {
+    "prefix": "component:",
+    "body": ["component: "],
+    "description": "The component property (Vue.js snippet)"
+  },
+  "The children property (Vue.js snippet)": {
+    "prefix": "children:",
+    "body": ["children: []"],
+    "description": "The children property (Vue.js snippet)"
+  },
+  "The router property (Vue.js snippet)": {
+    "prefix": "router",
+    "body": ["router: "],
+    "description": "The router property (Vue.js snippet)"
+  },
+  "Lifecycle Hooks (Vue.js snippet)": {
+    "prefix": "Vue-boilerplate",
+    "body": ["name: '',", "data() {", "", "},", "methods: {", "", "},", "components: {", "", "},", "mounted() {", "  ", "}"],
+    "description": "Lifecycle Hooks (Vue.js snippet)"
+  },
+  "Called after the instance has been mounted (Vue.js 2 snippet)": {
+    "prefix": "mounted()",
+    "body": ["mounted() {}"],
+    "description": "Called after the instance has been mounted (Vue.js 2 snippet)"
+  }
 }

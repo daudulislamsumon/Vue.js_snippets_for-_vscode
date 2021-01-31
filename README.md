@@ -118,6 +118,7 @@ You will get all the directive , Events , Property and Method supports.
 | {{}}        | ->  | {{  }}           |
 | v-for       | ->  | v-for="" :key="" |
 | :to         | ->  | :to="{}"         |
+| params      | ->  | params: {}       |
 
 # 11. The Vue Instance
 
@@ -168,6 +169,13 @@ You will get all the directive , Events , Property and Method supports.
 | path          | ->  | path: ''                    |
 | component     | ->  | component:                  |
 | children      | ->  | children: []                |
+
+# 15. Lifecycle Hooks
+
+| Trigger         | ->  | Snippet             |
+| --------------- | --- | ------------------- |
+| mounted()       | ->  | mounted() {}        |
+| Vue-boilerplate | ->  | All Lifecycle Hooks |
 
 ## Contributing
 
