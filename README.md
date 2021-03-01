@@ -161,20 +161,21 @@ You will get all the directive , Events , Property and Method supports.
 
 # 14. Vue Router
 
-| Trigger       | ->  | Snippet                     |
-| ------------- | --- | --------------------------- |
-| <router-view> | ->  | <router-view></router-view> |
-| <router-link> | ->  | <router-link></router-link> |
-| routes        | ->  | routes: []                  |
-| path          | ->  | path: ''                    |
-| component     | ->  | component:                  |
-| children      | ->  | children: []                |
+| Trigger         | ->  | Snippet                       |
+| --------------- | --- | ----------------------------- |
+| `<router-view>` | ->  | `<router-view></router-view>` |
+| `<router-link>` | ->  | `<router-link></router-link>` |
+| routes          | ->  | routes: []                    |
+| path            | ->  | path: ''                      |
+| component       | ->  | component:                    |
+| children        | ->  | children: []                  |
 
 # 15. Lifecycle Hooks
 
 | Trigger         | ->  | Snippet             |
 | --------------- | --- | ------------------- |
 | mounted()       | ->  | mounted() {}        |
+| created()       | ->  | created() {}        |
 | Vue-boilerplate | ->  | All Lifecycle Hooks |
 
 ## Contributing
