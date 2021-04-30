@@ -11,6 +11,8 @@
     // Update Date: 16/01/2021
     // Update Date: 17/01/2021
     // Update Date: 31/01/2021
+    // Update Date: 21/04/2021
+
     // *********************************************************
     // ================= Vue.js Data ===========================
     // *********************************************************
@@ -189,5 +191,50 @@
         "prefix": "created()",
         "body": ["created() {}"],
         "description": "Called synchronously after the instance is created (Vue.js snippet)"
+    },
+    "Vue-Resource $http - (Vue.js <vue-resource> snippet)": {
+        "prefix": ".$http",
+        "body": [".\\$http"],
+        "description": "Vue-Resource $http - (Vue.js <vue-resource> snippet)"
+    },
+    "Vue-Resource get - (Vue.js <vue-resource> snippet)": {
+        "prefix": ".get",
+        "body": [".get()"],
+        "description": "Vue-Resource get - (Vue.js <vue-resource> snippet)"
+    },
+    "Vue-Resource then - (Vue.js <vue-resource> snippet)": {
+        "prefix": ".then",
+        "body": [".then()"],
+        "description": "Vue-Resource then - (Vue.js <vue-resource> snippet)"
+    },
+    "Vue-Resource response - (Vue.js <vue-resource> snippet)": {
+        "prefix": "response",
+        "body": ["response"],
+        "description": "Vue-Resource response - (Vue.js <vue-resource> snippet)"
+    },
+    "Vue-Resource head - (Vue.js <vue-resource> snippet)": {
+        "prefix": ".head",
+        "body": [".head()"],
+        "description": "Vue-Resource head - (Vue.js <vue-resource> snippet)"
+    },
+    "Vue-Resource delete - (Vue.js <vue-resource> snippet)": {
+        "prefix": ".delete",
+        "body": [".delete()"],
+        "description": "Vue-Resource delete - (Vue.js <vue-resource> snippet)"
+    },
+    "Vue-Resource post - (Vue.js <vue-resource> snippet)": {
+        "prefix": ".post",
+        "body": [".post()"],
+        "description": "Vue-Resource post - (Vue.js <vue-resource> snippet)"
+    },
+    "Vue-Resource put - (Vue.js <vue-resource> snippet)": {
+        "prefix": ".put",
+        "body": [".put()"],
+        "description": "Vue-Resource put - (Vue.js <vue-resource> snippet)"
+    },
+    "Vue-Resource patch - (Vue.js <vue-resource> snippet)": {
+        "prefix": ".patch",
+        "body": [".patch()"],
+        "description": "Vue-Resource patch - (Vue.js <vue-resource> snippet)"
     }
 }
