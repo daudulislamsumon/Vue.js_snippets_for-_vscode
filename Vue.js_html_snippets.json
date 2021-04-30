@@ -338,17 +338,17 @@
     },
     "Dynamic Route Matching Params (Vue.js snippet)": {
         "prefix": "$route.p",
-        "body": ["$route.params"],
+        "body": [".\\$route.params"],
         "description": "Dynamic Route Matching Params (Vue.js snippet)"
     },
     "Dynamic Route Matching Query (Vue.js snippet)": {
         "prefix": "$route.q",
-        "body": ["$route.query"],
+        "body": [".\\$route.query"],
         "description": "Dynamic Route Matching Query (Vue.js snippet)"
     },
     "Dynamic Route Matching Meta (Vue.js snippet)": {
         "prefix": "$route.m",
-        "body": ["$route.meta"],
+        "body": [".\\$route.meta"],
         "description": "Dynamic Route Matching Meta (Vue.js snippet)"
     }
 }
