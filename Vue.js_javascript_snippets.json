@@ -12,6 +12,7 @@
     // Update Date: 17/01/2021
     // Update Date: 31/01/2021
     // Update Date: 21/04/2021
+    // Update Date: 30/04/2021
 
     // *********************************************************
     // ================= Vue.js Data ===========================
@@ -236,5 +237,34 @@
         "prefix": ".patch",
         "body": [".patch()"],
         "description": "Vue-Resource patch - (Vue.js <vue-resource> snippet)"
+    },
+    // *********************************************************
+    // ================ Vue.js Dynamic Route ===================
+    // *********************************************************
+
+    "Dynamic Route Params (Vue.js snippet)": {
+        "prefix": ".$route.p",
+        "body": [".\\$route.params"],
+        "description": "Dynamic Route Params (Vue.js snippet)"
+    },
+    "Dynamic Route Query (Vue.js snippet)": {
+        "prefix": ".$route.q",
+        "body": [".\\$route.query"],
+        "description": "Dynamic Route Query (Vue.js snippet)"
+    },
+    "Dynamic Route Meta (Vue.js snippet)": {
+        "prefix": ".$route.m",
+        "body": [".\\$route.meta"],
+        "description": "Dynamic Route Meta (Vue.js snippet)"
+    },
+
+    // *********************************************************
+    // =========== Vue.js Programmatic Navigation ==============
+    // *********************************************************
+
+    "Programmatic Navigation router.push() (Vue.js snippet)": {
+        "prefix": "router.p",
+        "body": ["router.push()", ""],
+        "description": "Programmatic Navigation router.push() (Vue.js snippet)"
     }
 }
