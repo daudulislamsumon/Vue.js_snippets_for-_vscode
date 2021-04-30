@@ -10,6 +10,11 @@
     // Update Date: 21/01/2021
     // Update Date: 22/01/2021
     // Update Date: 23/01/2021
+    // Update Date: 30/04/2021
+
+    // *********************************************************
+    // ================= Vue.js Directives =====================
+    // *********************************************************
 
     "Updates the element’s textContent (Vue.js snippet)": {
         "prefix": "v-text",
@@ -321,9 +326,29 @@
         "body": ["v-for=\"$1\" :key=\"$2\""],
         "description": "V-for with Key (Vue.js snippet)"
     },
+
+    // *********************************************************
+    // ================ Vue.js Dynamic Route ===================
+    // *********************************************************
+
     "Params property (Vue.js snippet)": {
         "prefix": "params",
         "body": ["params: {}"],
         "description": "Params property (Vue.js snippet)"
+    },
+    "Dynamic Route Matching Params (Vue.js snippet)": {
+        "prefix": "$route.p",
+        "body": ["$route.params"],
+        "description": "Dynamic Route Matching Params (Vue.js snippet)"
+    },
+    "Dynamic Route Matching Query (Vue.js snippet)": {
+        "prefix": "$route.q",
+        "body": ["$route.query"],
+        "description": "Dynamic Route Matching Query (Vue.js snippet)"
+    },
+    "Dynamic Route Matching Meta (Vue.js snippet)": {
+        "prefix": "$route.m",
+        "body": ["$route.meta"],
+        "description": "Dynamic Route Matching Meta (Vue.js snippet)"
     }
 }
