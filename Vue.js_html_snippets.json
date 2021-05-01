@@ -11,6 +11,7 @@
     // Update Date: 22/01/2021
     // Update Date: 23/01/2021
     // Update Date: 30/04/2021
+    // Update Date: 01/05/2021
 
     // *********************************************************
     // ================= Vue.js Directives =====================
@@ -337,18 +338,33 @@
         "description": "Params property (Vue.js snippet)"
     },
     "Dynamic Route Matching Params (Vue.js snippet)": {
-        "prefix": "$route.p",
-        "body": [".\\$route.params"],
+        "prefix": "$route.params",
+        "body": ["\\$route.params"],
         "description": "Dynamic Route Matching Params (Vue.js snippet)"
     },
     "Dynamic Route Matching Query (Vue.js snippet)": {
-        "prefix": "$route.q",
-        "body": [".\\$route.query"],
+        "prefix": "$route.query",
+        "body": ["\\$route.query"],
         "description": "Dynamic Route Matching Query (Vue.js snippet)"
     },
     "Dynamic Route Matching Meta (Vue.js snippet)": {
-        "prefix": "$route.m",
-        "body": [".\\$route.meta"],
+        "prefix": "$route.meta",
+        "body": ["\\$route.meta"],
         "description": "Dynamic Route Matching Meta (Vue.js snippet)"
+    },
+    "Dynamic Route Matching Path (Vue.js snippet)": {
+        "prefix": "$route.path",
+        "body": ["\\$route.path"],
+        "description": "Dynamic Route Matching Path (Vue.js snippet)"
+    },
+    "Dynamic Route Matching FullPath (Vue.js snippet)": {
+        "prefix": "$route.fullPath",
+        "body": ["\\$route.fullPath"],
+        "description": "Dynamic Route Matching FullPath (Vue.js snippet)"
+    },
+    "Dynamic Route Matching Name (Vue.js snippet)": {
+        "prefix": "$route.name",
+        "body": ["\\$route.name"],
+        "description": "Dynamic Route Matching Name (Vue.js snippet)"
     }
 }
