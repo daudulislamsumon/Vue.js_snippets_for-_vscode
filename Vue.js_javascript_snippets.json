@@ -13,6 +13,7 @@
     // Update Date: 31/01/2021
     // Update Date: 21/04/2021
     // Update Date: 30/04/2021
+    // Update Date: 01/05/2021
 
     // *********************************************************
     // ================= Vue.js Data ===========================
@@ -243,19 +244,34 @@
     // *********************************************************
 
     "Dynamic Route Params (Vue.js snippet)": {
-        "prefix": ".$route.p",
-        "body": [".\\$route.params"],
+        "prefix": "$route.params",
+        "body": ["\\$route.params"],
         "description": "Dynamic Route Params (Vue.js snippet)"
     },
     "Dynamic Route Query (Vue.js snippet)": {
-        "prefix": ".$route.q",
-        "body": [".\\$route.query"],
+        "prefix": "$route.query",
+        "body": ["\\$route.query"],
         "description": "Dynamic Route Query (Vue.js snippet)"
     },
     "Dynamic Route Meta (Vue.js snippet)": {
-        "prefix": ".$route.m",
-        "body": [".\\$route.meta"],
+        "prefix": "$route.meta",
+        "body": ["\\$route.meta"],
         "description": "Dynamic Route Meta (Vue.js snippet)"
+    },
+    "Dynamic Route Path (Vue.js snippet)": {
+        "prefix": "$route.path",
+        "body": ["\\$route.path"],
+        "description": "Dynamic Route Path (Vue.js snippet)"
+    },
+    "Dynamic Route FullPath (Vue.js snippet)": {
+        "prefix": "$route.fullPath",
+        "body": ["\\$route.fullPath"],
+        "description": "Dynamic Route FullPath (Vue.js snippet)"
+    },
+    "Dynamic Route Name (Vue.js snippet)": {
+        "prefix": "$route.name",
+        "body": ["\\$route.name"],
+        "description": "Dynamic Route Name (Vue.js snippet)"
     },
 
     // *********************************************************
@@ -263,7 +279,7 @@
     // *********************************************************
 
     "Programmatic Navigation router.push() (Vue.js snippet)": {
-        "prefix": "router.p",
+        "prefix": "router.push",
         "body": ["router.push()", ""],
         "description": "Programmatic Navigation router.push() (Vue.js snippet)"
     }
